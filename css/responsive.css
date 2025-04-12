@@ -1,0 +1,117 @@
+
+@media only screen and (max-width : 1199px) {
+	header.ab-header-area, header .ab-sticky-active {
+		padding: 15px 0;
+	}
+	.popular-tools-list li {
+		margin-bottom: 15px;
+	}
+	.keyword-list li {
+		margin-bottom: 10px;
+	}
+}
+@media (min-width:992px) {
+	.ab-hamburger {
+        display: none !important; /* Hide hamburger menu */
+    }
+    .ab-hamburger-toogle {
+        display: none !important; /* Hide hamburger toggle button */
+    }
+}
+@media only screen and (max-width:991px) {
+	.ab-main-menu{
+		display: none !important;
+	}
+	.ab-main-menu-bars {
+		position: absolute;
+		right: 12px;
+		top: 12px;
+	}
+	.ab-hamburger-social.mb-50 {
+		margin-top: 40px !important;
+	}
+	.contact_card {
+		margin-bottom: 20px;
+	}
+}
+  
+@media screen and (max-width:768px){
+	.hero_img {
+		left: 0 !important;
+	}
+	.section_title.earning_steps_title {
+		padding-bottom: 40px;
+	}
+	.footer_stats {
+		text-align: left !important;
+	}
+	.left_content h2 {
+		font-size: 36px !important;;
+		line-height: 46px !important
+	}
+	.section_title_area h2 {
+		font-size: 30px !important;
+	}
+	.card.instructor_card {
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width:575px) {
+
+}
+
+@media screen and (min-width:320px) and (max-width:479px) {
+	
+}
+
+
+@media screen and (max-width: 991px){	
+	.buttons_area {
+		display: none !important;
+	}
+	#keyword_section .keyword {	
+		margin-bottom: 10px;
+	}
+	#top_rating_instructor_2 .instructor_card {
+		margin-bottom: 20px;
+	}
+	.sidebar .nav-item .dropdown-content {
+		position: inherit;
+	}
+	.sidebar .nav-item .dropdown {
+		position: inherit;
+	}
+	.nav-item .dropdown-content {
+		visibility: inherit !important;
+	}
+
+	.nav-item .dropdown:hover .dropdown-content {
+		visibility: inherit !important;
+	}
+
+}
+@media screen and (max-width: 767px){
+	#keyword_section .keyword {	
+		margin-bottom: 10px;
+	}
+	#top_rating_instructor_2 .instructor_card {
+		margin-bottom: 20px !important;
+	}
+	.sidebar .nav-item .dropdown {
+		position: inherit;
+	}
+	.sidebar .nav-item .dropdown-content {
+		position: inherit;
+	}
+	.nav-item .dropdown-content {
+		visibility: inherit !important;
+	}
+
+	.nav-item .dropdown:hover .dropdown-content {
+		visibility: inherit !important;
+	}
+	.contact_page_form {
+		margin-top: 30px;
+	}
+
+}
